@@ -1,0 +1,16 @@
+names:
+- address
+- birth_date
+- country
+- full_name
+- id_number
+nc: 5
+roboflow:
+  license: MIT
+  project: ids-z3sti
+  url: https://universe.roboflow.com/mywork-f0ue6/ids-z3sti/dataset/4
+  version: 4
+  workspace: mywork-f0ue6
+test: ../test/images
+train: ../train/images
+val: ../valid/images
