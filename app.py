@@ -184,7 +184,7 @@ if uploaded_file:
     with open(img_path, "wb") as f:
         f.write(uploaded_file.getbuffer())
 
-    MODEL_PATH = "/home/marno000onaaa/Desktop/OCR_IDS/OCR_System_for_National_ID_Cards-Egyptian-Kuwaiti-/OCR_System_for_National_ID_Cards-Egyptian-Kuwaiti-/models/best.pt"
+    MODEL_PATH = "models/best.pt"
 
     pipe = Pipeline(MODEL_PATH)
     result = pipe.process(img_path)
