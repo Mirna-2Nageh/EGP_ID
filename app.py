@@ -235,7 +235,7 @@ if file:
     with open(path,"wb") as f:
         f.write(file.getbuffer())
 
-    pipe = Pipeline("models/best.pt")
+    pipe = Pipeline("OCR_System_for_National_ID_Cards-Egyptian-Kuwaiti-/models/best.pt")
     fields, id_logic, original_img, boxed_img = pipe.process(path)
     col1, col2 = st.columns(2)
 
